@@ -1,0 +1,13 @@
+{
+    "name": "my/oasobi",
+    "type": "library",
+    "repositories": [
+      {
+        "type": "path",
+        "url": "../composer-update-request"
+      }
+    ],
+    "require": {
+      "o0h/composer-update-request": "@dev"
+    }
+}
