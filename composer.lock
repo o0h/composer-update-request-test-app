@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c4ff390be840dc7725018747a821c11",
+    "content-hash": "7071b3db695641815dc3de52c6066367",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -113,6 +113,48 @@
                 "git wrapper"
             ],
             "time": "2018-01-30T19:34:55+00:00"
+        },
+        {
+            "name": "czproject/git-php",
+            "version": "v3.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/czproject/git-php.git",
+                "reference": "e40d2732fb6390e82a78a2804649eaf5f70f9fa1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/czproject/git-php/zipball/e40d2732fb6390e82a78a2804649eaf5f70f9fa1",
+                "reference": "e40d2732fb6390e82a78a2804649eaf5f70f9fa1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "nette/tester": "~1.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Pecha",
+                    "email": "janpecha@email.cz"
+                }
+            ],
+            "description": "Library for work with Git repository in PHP.",
+            "keywords": [
+                "git"
+            ],
+            "time": "2018-03-07T17:46:10+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -249,16 +291,17 @@
         },
         {
             "name": "o0h/composer-update-request",
-            "version": "9999999-dev",
+            "version": "dev-update-composer-20180402114034",
             "dist": {
                 "type": "path",
                 "url": "../composer-update-request",
-                "reference": "b982bd3e94bcca2ede833b4db5b9e4b431e20670",
+                "reference": "8cb9ed777e3b2d0f61e1c94167548a9d8332abfa",
                 "shasum": null
             },
             "require": {
                 "composer-plugin-api": "^1.1",
                 "cpliakas/git-wrapper": "^2.0",
+                "czproject/git-php": "^3.13",
                 "guzzlehttp/psr7": "^1.4",
                 "knplabs/github-api": "^2.8",
                 "php": "^7.0",
@@ -847,6 +890,44 @@
                 "response"
             ],
             "time": "2016-08-06T14:39:51+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21T11:40:51+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
