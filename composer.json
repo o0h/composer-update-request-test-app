@@ -8,6 +8,7 @@
       }
     ],
     "require": {
-      "o0h/composer-update-request": "@dev"
+      "o0h/composer-update-request": "@dev",
+      "psr/log": "1.0.0"
     }
 }
