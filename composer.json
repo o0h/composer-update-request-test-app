@@ -3,13 +3,15 @@
     "type": "library",
     "repositories": [
       {
-        "type": "path",
-        "url": "../composer-update-request"
+        "type": "vcs",
+        "url": "https://github.com/o0h/composer-update-request"
       }
     ],
     "require": {
-      "o0h/composer-update-request": "@dev",
       "psr/log": "1.0.2",
       "php-http/guzzle6-adapter": "^1.1"
-    }
+    },
+  "require-dev": {
+    "o0h/composer-update-request": "dev-wip"
+  }
 }
