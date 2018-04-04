@@ -4,11 +4,11 @@
     "repositories": [
       {
         "type": "vcs",
-        "url": "https://github.com/o0h/composer-update-request"
+        "url": "https://github.com/o0h/composer-update-request.git"
       }
     ],
     "require": {
-      "psr/log": "1.0.2",
+      "psr/log": "1.0.1",
       "php-http/guzzle6-adapter": "^1.1"
     },
   "require-dev": {
