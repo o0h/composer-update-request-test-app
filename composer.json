@@ -9,6 +9,7 @@
     ],
     "require": {
       "o0h/composer-update-request": "@dev",
-      "psr/log": "1.0.1"
+      "psr/log": "1.0.2",
+      "php-http/guzzle6-adapter": "^1.1"
     }
 }
