@@ -618,10 +618,10 @@
             "name": "o0h/composer-update-request",
             "version": "dev-wip",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/o0h/composer-update-request/zipball/ca57fb88a9f922625997b13f05305ffaf0972b1e",
+                "type": "path",
+                "url": "../composer-update-request",
                 "reference": "ca57fb88a9f922625997b13f05305ffaf0972b1e",
-                "shasum": ""
+                "shasum": null
             },
             "require": {
                 "composer-plugin-api": "^1.0",
@@ -645,7 +645,6 @@
                     "O0h\\ComposerUpdateRequest\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -655,8 +654,7 @@
                     "email": "dev@o0h.in"
                 }
             ],
-            "description": "Support to easily keep composer packages up-to-date, making pull request",
-            "time": "2018-04-07T10:26:50+00:00"
+            "description": "Support to easily keep composer packages up-to-date, making pull request"
         },
         {
             "name": "php-http/cache-plugin",
