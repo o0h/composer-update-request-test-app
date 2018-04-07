@@ -10,7 +10,6 @@ cache:
 before_script:
   - git config --global user.email "mail@example.com"
   - git config --global user.name "I am Travis"
-  - composer install --prefer-dist --no-interaction
 
 script:
   - composer --version
