@@ -1,6 +1,6 @@
 language: php
 php:
-  - 7.1
+  - '7.1'
 
 cache:
   directories:
@@ -9,8 +9,8 @@ cache:
 
 before_script:
   - git config --global user.email "mail@example.com"
-  - git config --global user.name "Composer Update"
-  - composer install --prefer-dist --no-interaction
+  - git config --global user.name "I am Travis"
 
 script:
   - composer --version
+  - if [ "${TRAVIS_EVENT_TYPE}" != "cron" ]; then composer global require o0h/composer-update-request:dev-wip@dev --no-suggest && cd $TRAVIS_BUILD_DIR && composer update -vvv; fi
