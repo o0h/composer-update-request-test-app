@@ -1,17 +1,8 @@
 {
     "name": "my/oasobi",
     "type": "library",
-    "repositories": [
-      {
-        "type": "vcs",
-        "url": "https://github.com/o0h/composer-update-request"
-      }
-    ],
     "require": {
       "psr/log": "1.0.1",
       "php-http/guzzle6-adapter": "^1.1"
-    },
-  "require-dev": {
-    "o0h/composer-update-request": "dev-wip"
-  }
+    }
 }

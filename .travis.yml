@@ -14,3 +14,4 @@ before_script:
 
 script:
   - composer --version
+  - if [ "${TRAVIS_EVENT_TYPE}" != "cron" ]; then composer global require o0h/composer-update-request:dev-wip@dev && composer update; fi
