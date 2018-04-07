@@ -8,6 +8,8 @@ cache:
     - $HOME/.composer/cache
 
 before_script:
+  - git config --global user.email "mail@example.com"
+  - git config --global user.name "Composer Update"
   - composer install --prefer-dist --no-interaction
 
 script:
