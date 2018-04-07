@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4693d564bc8e0aac83265221a6533e49",
+    "content-hash": "5287d337818aa2af57b093fc032aae88",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -405,16 +405,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.0.2",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+                "reference": "5277094ed527a1c4477177d102fe4c53551953e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/5277094ed527a1c4477177d102fe4c53551953e0",
+                "reference": "5277094ed527a1c4477177d102fe4c53551953e0",
                 "shasum": ""
             },
             "require": {
@@ -448,7 +448,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "time": "2016-09-19T16:02:08+00:00"
         }
     ],
     "packages-dev": [
@@ -617,11 +617,6 @@
         {
             "name": "o0h/composer-update-request",
             "version": "dev-wip",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/o0h/composer-update-request.git",
-                "reference": "ca57fb88a9f922625997b13f05305ffaf0972b1e"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/o0h/composer-update-request/zipball/ca57fb88a9f922625997b13f05305ffaf0972b1e",
