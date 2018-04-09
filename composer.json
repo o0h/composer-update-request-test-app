@@ -2,7 +2,7 @@
     "name": "my/oasobi",
     "type": "library",
     "require": {
-      "psr/log": "1.0.2",
+      "psr/log": "1.0.0",
       "php-http/guzzle6-adapter": "^1.1"
     }
 }
